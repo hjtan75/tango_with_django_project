@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+{% load staticfiles %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,6 +16,9 @@
     </div>
     <div>
         <a href="/rango/about/">About</a><br/>
+        <img src="{% static 'images/rango.jpeg' %}" 
+        alt="Picture of Rango"
+        width="250" height="400"/>
     </div>
 </body>
 </html>
