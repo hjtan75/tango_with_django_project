@@ -1,4 +1,5 @@
 db.sqlite3
+.vscode
 *.pyc
 rango/migrations/*
 rango/__pycache__/*
